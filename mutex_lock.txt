@@ -1,0 +1,8 @@
+
+The program execution starts from the main file it take a single argument while running it represents the number of threads are going to be executed. here we are creating the n number of threads where we are create the threads by using the thread array it is a single dimensional array. 
+
+The thread need to execute for calling the method called pthread_create() where the thread method called readlines form method is going to be executed it function can be called by using n number of threads for example 3 number of threads we have applied a mutext lock where it allow only one thread to enter into the resources for reading the data while the other threads are going to be in waiting process until i complete the execution and then it unlock the mutex. Due to this the threads will not enter into the critical section. 
+
+Here we created a one more function to count all the characters count and then identified the character is alphabet or not. 
+
+If it is alphabet then it add the count of the character 
